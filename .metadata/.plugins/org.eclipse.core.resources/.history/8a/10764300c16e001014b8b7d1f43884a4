@@ -1,0 +1,24 @@
+package com.deitel.deitalpractice;
+
+public class HeartRates {
+	
+	private String firstName;
+	private String lastName;
+	private int dob_Day;
+	private int dob_Month;
+	private int dob_Year;
+
+	//instance variables
+	public HeartRates(String firstName, String lastName, int dob_Day, int dob_Month, int dob_Year) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dob_Day = dob_Day;
+		this.dob_Month = dob_Month;
+		this.dob_Year = dob_Year;
+	}
+	
+	//setters
+	public void setFirstName(String firstName) {
+		
+	}
+}

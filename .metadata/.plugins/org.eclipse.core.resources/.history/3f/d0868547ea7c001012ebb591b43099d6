@@ -1,0 +1,16 @@
+package com.deitel.deitalpractice;
+
+import java.util.Scanner;
+
+public class Exercise_4_19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int counter = 0;
+		while(counter < 4) {
+			
+		}
+	}
+
+}

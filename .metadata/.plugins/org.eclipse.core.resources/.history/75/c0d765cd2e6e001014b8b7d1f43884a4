@@ -1,0 +1,29 @@
+package com.deitel.deitalpractice;
+
+
+public class PetrolPurchase{
+	//instance variables
+	private String location;
+	private String petrolType;
+	private int quantity;
+	private double pricePerLitre;
+	
+	//constructor
+	public PetrolPurchase(String location, String petrolType, int quantity, double pricePerLitre) {
+		this.location = location;
+		this.petrolType = petrolType;
+		this.quantity = quantity;
+		this.pricePerLitre = pricePerLitre;
+	}
+	
+	//setter methods or mutators
+	public void setLocation(String location) {
+		this.location = location;
+	}
+	
+	public void setPetrolType(String petrolType) {
+		this.petrolType =  petrolType;
+	}
+	
+	
+}

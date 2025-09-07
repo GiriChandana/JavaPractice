@@ -1,0 +1,15 @@
+package com.deitel.deitalpractice;
+
+
+public class PetrolPurchase{
+	//instance variables
+	private String location;
+	private String petrolType;
+	private int quantity;
+	private double pricePerLitre;
+	
+	//constructor
+	public PetrolPurchase() {
+		
+	}
+}

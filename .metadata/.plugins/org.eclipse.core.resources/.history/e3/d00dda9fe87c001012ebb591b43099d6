@@ -1,0 +1,39 @@
+package com.deitel.deitalpractice;
+
+import java.util.Scanner;
+
+public class Exercise_4_18 {
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		int numberOfCustomers = 5;
+		int accountNumber = 0;
+		int beginningBalance = 0;
+		int charges = 0;
+		int credits = 0;
+		int creditLimit = 0;
+		int counter = 0;
+		while(numberOfCustomers > 0) {
+			System.out.printf("Enter the details of customer: %d", counter+1);
+			System.out.println();
+			System.out.print("Enter account number: ");
+			accountNumber = input.nextInt();
+			System.out.print("Enter balance at the beginning of the month: ");
+			beginningBalance = input.nextInt();
+			System.out.print("Enter total of all items charged by the customer this month: ");
+			charges = input.nextInt();
+			System.out.print("Enter total of all credits applied to the customer's account this month: ");
+			credits = input.nextInt();
+			System.out.print("Enter allowed credit limit: ");
+			creditLimit = input.nextInt();
+			System.out.printf("New balance is %d", beginningBalance + charges - credits );
+			System.out.println();
+			if ((beginningBalance + charges - credits) > creditLimit) {
+				System.out.printf("Credit limit exceeded for customer with account number: %d", accountNumber);
+			}
+			numberOfCustomers--;
+			counter++;
+		}
+	}
+
+}

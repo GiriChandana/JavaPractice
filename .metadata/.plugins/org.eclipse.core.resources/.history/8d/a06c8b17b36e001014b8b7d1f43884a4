@@ -1,0 +1,10 @@
+package com.deitel.deitalpractice;
+
+public class Clock {
+	
+	//instance variables
+	private int hour;
+	private int minute;
+	private int second;
+
+}

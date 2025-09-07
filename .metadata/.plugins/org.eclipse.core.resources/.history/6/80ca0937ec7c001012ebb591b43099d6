@@ -1,0 +1,31 @@
+package com.deitel.deitalpractice;
+
+import java.util.Scanner;
+
+public class Exercise_4_19 {
+	public int SalaryInDollars = 200;
+	public double printSalary(double  ) {
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int counter = 0;
+		double salesPersonOne_ItemValue = 239.99;
+		double salesPersonTwo_ItemValue = 129.75;
+		double salesPersonThree_ItemValue = 99.95;
+		double salesPersonFour_ItemValue = 350.89;
+		
+		while(counter < 4) {
+			System.out.printf("Enter the number of items sold by salesperson %d", counter +1);
+			int numberOfItems = input.nextInt();
+			if (counter == 0) {
+				System.out.printf("Earnings of the salesperson %d is %f", (float)(SalaryInDollars + 0.09 * (numberOfItems * salesPersonOne_ItemValue)));	
+			}
+			
+			
+		}
+	}
+
+}

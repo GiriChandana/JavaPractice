@@ -1,0 +1,15 @@
+package com.deitel.deitalpractice;
+
+public class HeartRates {
+	
+	private String firstName;
+	private String lastName;
+	private int dob_day;
+	private int dob_month;
+	private int dob_year;
+
+	//instance variables
+	public HeartRates(String firstName, String lastName, int dob_day, ) {
+		
+	}
+}

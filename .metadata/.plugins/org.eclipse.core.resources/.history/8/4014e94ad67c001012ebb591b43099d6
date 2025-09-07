@@ -1,0 +1,27 @@
+package com.deitel.deitalpractice;
+
+import java.util.Scanner;
+
+public class Exercise_4_17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int Number_Of_Trips_SentinelFlag = 10;
+		float total_MPG = 0; // MPG stands for miles per gallon
+		
+		while (Number_Of_Trips_SentinelFlag > 0) {
+			System.out.print("Enter miles: ");
+			int miles = input.nextInt();
+			System.out.print("Enter gallons: ");
+			int gallons = input.nextInt();
+			total_MPG += (float)(miles/gallons);
+			Number_Of_Trips_SentinelFlag--;
+			
+		}
+		
+		System.out.printf("Total Average: %.2f", (float)(total_MPG/10));
+
+	}
+
+}

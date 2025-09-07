@@ -1,0 +1,18 @@
+package com.deitel.deitalpractice;
+
+import java.util.Scanner;
+
+public class Exercise_4_18 {
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		int numberOfCustomers = 5;
+		int accountNumber = 0;
+		
+		while(numberOfCustomers > 0) {
+			
+			numberOfCustomers--;
+		}
+	}
+
+}

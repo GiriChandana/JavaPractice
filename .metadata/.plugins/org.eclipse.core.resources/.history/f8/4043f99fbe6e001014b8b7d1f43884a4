@@ -1,0 +1,18 @@
+package com.deitel.deitalpractice;
+
+public class ClockTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Clock clock1 = new Clock(12, 34, 56);
+		Clock clock2 = new Clock(29, 56, 89);
+		Clock clock3 = new Clock(23, 59, 59);
+		
+		System.out.printf("Clock1 = %d:%d:%d%n", clock1.getHour(), clock1.getMinute(), clock1.getSecond());
+		System.out.printf("Clock2 = %d:%d:%d%n", clock2.getHour(), clock2.getMinute(), clock2.getSecond());
+		System.out.printf("Clock3 = %d:%d:%d%n", clock3.getHour(), clock3.getMinute(), clock3.getSecond());
+
+	}
+
+}

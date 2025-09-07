@@ -1,0 +1,12 @@
+package com.deitel.deitalpractice;
+
+import java.util.Scanner;
+
+public class Petrol {
+	Scanner input = new Scanner(System.in);
+	
+	PetrolPurchase petrolPurchase = new PetrolPurchase("Raidurg", "petroltype1", 4, 80, 10);
+	
+	System.out.printf("%s Location, %s PetrolType, %d litres, %d per litre, %.2f disount", petrol)
+	
+}

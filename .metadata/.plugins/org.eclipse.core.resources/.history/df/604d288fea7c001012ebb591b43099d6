@@ -1,0 +1,20 @@
+package com.deitel.deitalpractice;
+
+import java.util.Scanner;
+
+public class Exercise_4_19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int counter = 0;
+		float salesPersonOne_ItemValue = 
+		while(counter < 4) {
+			System.out.printf("Enter the number of items sold by salesperson %d", counter +1);
+			int numberOfItems = input.nextInt();
+			
+			
+		}
+	}
+
+}

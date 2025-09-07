@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753090830685_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753090830696_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753779885328_5" label="nanohttpd-project" name="nanohttpd-project">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nanohttpd" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nanohttpd-apache-fileupload" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nanohttpd-webserver-markdown-plugin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nanohttpd-nanolets" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nanohttpd-samples" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nanohttpd-webserver" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nanohttpd-websocket" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753090832919_2" label="Window Working Set" name="Aggregate for window 1753090832919"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753340253211_3" label="Window Working Set" name="Aggregate for window 1753340253211"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1753682344196_4" label="Window Working Set" name="Aggregate for window 1753682344196"/>
+</workingSetManager>

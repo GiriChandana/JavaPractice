@@ -1,0 +1,19 @@
+package com.deitel.deitalpractice;
+
+import java.util.Scanner;
+
+public class Petrol {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter location: ");
+		String location = input.nextLine();
+		System.out.print("Enter PetrolType: ");
+		
+		//PetrolPurchase petrolPurchase = new PetrolPurchase( );
+
+	}
+
+}
