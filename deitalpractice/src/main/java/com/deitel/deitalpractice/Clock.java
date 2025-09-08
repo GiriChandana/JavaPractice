@@ -1,0 +1,60 @@
+package com.deitel.deitalpractice;
+
+public class Clock {
+
+	// instance variables
+	private int hour;
+	private int minute;
+	private int second;
+
+	// constructor
+	public Clock(int hour, int minute, int second) {
+		if (hour > 23) {
+			this.hour = 0;
+		} else {
+			this.hour = hour;
+		}
+
+		if (minute > 59) {
+			this.minute = 0;
+		} else {
+			this.minute = minute;
+		}
+
+		if (second > 59) {
+			this.second = 0;
+		} else {
+			this.second = second;
+		}
+
+	}
+
+	// setters
+
+	public void setHour(int hour) {
+		this.hour = hour;
+	}
+
+	public void setMinute(int minute) {
+		this.minute = minute;
+	}
+
+	public void setSecond(int second) {
+		this.second = second;
+	}
+
+	// getters
+
+	public int getHour() {
+		return hour;
+	}
+
+	public int getMinute() {
+		return minute;
+	}
+
+	public int getSecond() {
+		return second;
+	}
+
+}
