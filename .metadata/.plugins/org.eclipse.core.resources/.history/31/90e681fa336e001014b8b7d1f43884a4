@@ -1,6 +1,0 @@
-package com.deitel.deitalpractice;
-
-public class Petrol {
-	Scanner input = new Scanner(System.in);
-	
-}

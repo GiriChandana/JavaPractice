@@ -1,9 +1,0 @@
-package com.deitel.deitalpractice;
-
-public class HeartRates {
-
-	//instance variables
-	public HeartRates() {
-		
-	}
-}
